@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Mendefinisikan karakter set yang digunakan -->
+    <meta charset="UTF-8" />
+
+    <!-- Menyesuaikan tampilan untuk perangkat mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Judul halaman yang akan ditampilkan di tab browser -->
+    <title>DimsBurger</title>
+
+    <!-- Fonts -->
+    <!-- Preconnect untuk mempercepat pemuatan font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Mengimpor berbagai font dari Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&family=Quicksand:wght@300;400;700&family=Ubuntu:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <!-- Menambahkan ikon Feather untuk digunakan dalam halaman -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Style -->
+    <!-- Menghubungkan file CSS eksternal -->
+    <link rel="stylesheet" href="desain.css" />
+
+    <!-- Logo icons profile -->
+    <!-- Menentukan ikon favicon untuk halaman -->
+    <link rel="shortcut icon" href="gambar/Oo.jpeg" />
+  </head>
+  <body>
+    <!-- Navbar mulai -->
+    <!-- Membuat navbar dengan logo, menu, dan ikon tambahan -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">Dims<span>Burger</span>.</a>
+      <div class="navbar-nav">
+        <!-- Tautan navigasi -->
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <!-- Ikon tambahan untuk pencarian, keranjang belanja, dan menu -->
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar selesai -->
+
+    <!-- Hero section mulai -->
+    <!-- Bagian hero dengan judul, deskripsi, dan CTA/Call To Action -->
+    <section class="hero" id="home">
+      <div class="content">
+        <h1>Kenikmatan hakiki hadir dalam setiap <span>Burger</span>...</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis,
+          beatae.
+        </p>
+        <a href="#" class="cta">Beli sekarang</a>
+      </div>
+    </section>
+    <!-- Hero section selesai -->
+
+    <!-- About section mulai -->
+    <section id="about" class="about">
+      <h2><span>Tentang </span>Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <!-- Gambar tentang kami -->
+          <img src="gambar/tentang.jpeg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa memilih Burger kami?</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem,
+            magnam est assumenda modi totam voluptatibus maxime recusandae
+            asperiores, necessitatibus iure vero dolorum! Obcaecati, voluptatem.
+            Reiciendis rerum ab earum eaque soluta, velit quam eligendi, totam
+            iste aspernatur aliquid officia ipsum veritatis, praesentium modi
+            voluptatum atque numquam minima dolor incidunt reprehenderit est
+            error ratione deserunt? Quas consequuntur tempora id voluptatum,
+            nostrum at maiores nobis molestiae repellat obcaecati? Quasi,
+            quibusdam ipsa dolor libero possimus assumenda! Adipisci itaque
+            doloribus, praesentium labore aut excepturi culpa.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About section selesai -->
+
+    <!-- Menu section mulai -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At dolorum
+        similique amet placeat deserunt quibusdam.
+      </p>
+      <div class="row">
+        <!-- Kartu menu 1 -->
+        <div class="menu-card">
+          <img
+            src="gambar/menu1.jpeg"
+            width="300"
+            height="300"
+            alt="burger"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Burger -</h3>
+          <p class="menu-card-price">IDR 38K</p>
+        </div>
+        <!-- Kartu menu 2 -->
+        <div class="menu-card">
+          <img
+            src="gambar/menu2.jpeg"
+            width="300"
+            height="300"
+            alt="burger"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Burger -</h3>
+          <p class="menu-card-price">IDR 38K</p>
+        </div>
+        <!-- Kartu menu 3 -->
+        <div class="menu-card">
+          <img
+            src="gambar/menu3.jpeg"
+            width="300"
+            height="300"
+            alt="burger"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Burger -</h3>
+          <p class="menu-card-price">IDR 38K</p>
+        </div>
+        <!-- Kartu menu 4 -->
+        <div class="menu-card">
+          <img
+            src="gambar/menu1.jpeg"
+            width="300"
+            height="300"
+            alt="burger"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Burger -</h3>
+          <p class="menu-card-price">IDR 38K</p>
+        </div>
+        <!-- Kartu menu 5 -->
+        <div class="menu-card">
+          <img
+            src="gambar/menu5.jpeg"
+            width="300"
+            height="300"
+            alt="burger"
+            class="menu-card-img"
+          />
+          <h3 class="menu-card-title">- Burger -</h3>
+          <p class="menu-card-price">IDR 38K</p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu section selesai -->
+
+    <!-- Contact section mulai -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At dolorum
+        similique amet placeat deserunt quibusdam.
+      </p>
+      <div class="row">
+        <!-- Peta lokasi -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127504.44554018302!2d104.68056171815789!3d-2.9547940550849034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e3b75e8fc27a3e3%3A0x3039d80b220d0c0!2sPalembang%2C%20Kota%20Palembang%2C%20Sumatera%20Selatan!5e0!3m2!1sid!2sid!4v1723769704159!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <!-- Formulir kontak -->
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="tel" placeholder="Nomor HP" />
+          </div>
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact section selesai -->
+
+    <!-- Footer mulai -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="credit">
+        <p>Created by <span>Dimas Satria</span>. | &copy;2024.</p>
+      </div>
+    </footer>
+    <!-- Footer selesai -->
+
+    <!-- Feather Icons -->
+    <!-- Mengganti placeholder dengan ikon Feather yang sesuai -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Menghubungkan Javascript -->
+    <!-- Menghubungkan file JavaScript eksternal -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
